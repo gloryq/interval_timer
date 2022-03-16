@@ -1,5 +1,6 @@
 package ca.gloryq.intervaltimer
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -29,7 +30,12 @@ class MainActivity : AppCompatActivity() {
         val layoutManager: RecyclerView.LayoutManager = LinearLayoutManager(this)
         binding.listTimers.layoutManager = layoutManager
 
-        rvAdapter = TimerListAdapter(timersList)
+        rvAdapter = TimerListAdapter(timersList, this)
         binding.listTimers.adapter = rvAdapter
+
+        binding.FABCreateIntervalTimer.setOnClickListener {
+            val intent = Intent(this, CreateIntervalTimer::class.java)
+            startActivity(intent)
+        }
     }
 }

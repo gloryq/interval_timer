@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/glory/Documents/_SCHOOL/IAT 359/IntervalTimer/app/src/main/res/layout/activity_create_interval_timer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/glory/Documents/_SCHOOL/IAT 359/IntervalTimer/app/src/main/res/layout/activity_edit_interval_timer.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/glory/Documents/_SCHOOL/IAT 359/IntervalTimer/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/glory/Documents/_SCHOOL/IAT 359/IntervalTimer/app/src/main/res/layout/list_timer_item.xml" value="0.264" />
       </map>
